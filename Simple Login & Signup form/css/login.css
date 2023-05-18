@@ -1,0 +1,158 @@
+body{    
+    background: url("../image/nature.jpg") no-repeat center fixed; 
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.main{
+    width: 420px;
+    height: 500px;
+    color: #000;
+    top: 50%;
+    left: 50%;
+    padding: 30px 30px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    box-shadow: 8px 8px 50px #000;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fdfdfd;
+    text-align: center;
+    margin-bottom: 20%;
+    
+}
+
+.main input{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.main input[type=text], .main input[type=password] {
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background: transparent;
+    outline: none;
+    height: 30px;
+    font-style: 16px;
+    opacity: 1;
+    color: #ccc;
+}
+
+.main input[type=submit]{
+    border-radius: 10px;
+    outline: none;
+    height: 40px;
+    background: #000000 ;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    opacity: 0.8;
+    
+}
+
+.main input[type=submit]:hover{
+    color: white;
+    opacity: 1;
+    background: #161616;
+}
+
+.main input[type=checkbox]{
+    margin-top: 5px;
+}
+
+.main a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.7;
+}
+
+.main a:hover{
+    color: #fff;
+    opacity: 1;
+}
+
+.bottom{
+    color: #fff;
+}
+
+
+.bottom input{
+    width: 10%;
+    float: left;
+
+}
+
+.bottom a{
+    float: right;
+}
+
+.another{
+    color: rgb(255, 255, 255);
+    margin-left: 80px;
+    margin-top: 50px;
+    font-size: 20px;
+
+}
+
+.another a{
+    color: #1446e9;
+    /* font-weight: bold; */
+    font-size: 20px;
+}
+
+.social{
+    margin-top: 20%;
+    text-align: center;
+}
+
+.social a{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+.social a:nth-child(1){
+    background: #0e2980 ;
+}
+
+.social a:nth-child(2){
+    background: #960e64 ;
+}
+
+.social a:nth-child(3){
+    background: #0e6780 ;
+}
+
+.social a:nth-child(4){
+    background: #800e1f ;
+}
+
+.social a:nth-child(5){
+    background: #0a703a ;
+}
+
+.social a i{
+    padding: 8px 0px;
+}
+
+#overlay-area{
+    position: absolute;
+    background-color: rgba(0,0,0,0.4);
+    z-index: -5;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+
+}
